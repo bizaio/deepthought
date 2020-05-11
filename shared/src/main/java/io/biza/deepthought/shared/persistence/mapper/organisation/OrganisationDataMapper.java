@@ -19,12 +19,10 @@ import io.biza.deepthought.shared.payloads.dio.common.DioAddress;
 import io.biza.deepthought.shared.payloads.dio.common.DioOrganisation;
 import io.biza.deepthought.shared.persistence.model.organisation.OrganisationAddressData;
 import io.biza.deepthought.shared.persistence.model.organisation.OrganisationData;
-import lombok.extern.slf4j.Slf4j;
 import ma.glasnost.orika.CustomMapper;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.MappingContext;
 
-@Slf4j
 public class OrganisationDataMapper implements OrikaFactoryConfigurerInterface {
 
   @Override

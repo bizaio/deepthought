@@ -35,6 +35,7 @@ import javax.persistence.Transient;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import org.hibernate.annotations.Type;
+
 import io.biza.babelfish.cdr.enumerations.BankingPaymentNonBusinessDayTreatment;
 import io.biza.babelfish.cdr.enumerations.BankingScheduledPaymentStatus;
 import io.biza.babelfish.cdr.enumerations.CommonWeekDay;

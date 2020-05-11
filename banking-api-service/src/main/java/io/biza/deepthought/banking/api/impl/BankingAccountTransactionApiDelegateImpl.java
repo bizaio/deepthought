@@ -25,6 +25,7 @@ import io.biza.babelfish.cdr.models.payloads.banking.account.transaction.Banking
 import io.biza.babelfish.cdr.models.responses.ResponseBankingTransactionByIdV1;
 import io.biza.babelfish.cdr.models.responses.ResponseBankingTransactionListV1;
 import io.biza.babelfish.cdr.models.responses.container.ResponseBankingTransactionListDataV1;
+import io.biza.babelfish.spring.util.CDRContainerAttributes;
 import io.biza.deepthought.banking.api.delegate.BankingAccountTransactionApiDelegate;
 import io.biza.deepthought.banking.requests.RequestListTransactions;
 import io.biza.deepthought.banking.service.TransactionService;
@@ -32,7 +33,6 @@ import io.biza.deepthought.shared.component.mapper.DeepThoughtMapper;
 import io.biza.deepthought.shared.component.service.GrantService;
 import io.biza.deepthought.shared.exception.NotFoundException;
 import io.biza.deepthought.shared.persistence.model.bank.transaction.BankAccountTransactionData;
-import io.biza.deepthought.shared.util.CDRContainerAttributes;
 import lombok.extern.slf4j.Slf4j;
 
 @Validated

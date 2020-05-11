@@ -39,6 +39,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import org.hibernate.annotations.Type;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import io.biza.babelfish.cdr.enumerations.BankingProductFeeType;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioSchemeType;
 import io.biza.deepthought.shared.persistence.converter.CurrencyDataConverter;

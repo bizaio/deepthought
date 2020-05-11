@@ -18,6 +18,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 import io.biza.babelfish.cdr.enumerations.AddressPAFFlatUnitType;
 import io.biza.babelfish.cdr.enumerations.AddressPAFFloorLevelType;
 import io.biza.babelfish.cdr.enumerations.AddressPAFPostalDeliveryType;

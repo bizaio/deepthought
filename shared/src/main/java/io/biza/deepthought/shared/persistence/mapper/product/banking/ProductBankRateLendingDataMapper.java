@@ -17,14 +17,15 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
 import io.biza.babelfish.cdr.models.payloads.banking.product.BankingProductLendingRateV1;
+import io.biza.babelfish.cdr.models.payloads.banking.product.BankingProductRateTierApplicabilityV1;
 import io.biza.babelfish.cdr.models.payloads.banking.product.BankingProductRateTierV1;
 import io.biza.deepthought.shared.mapper.OrikaFactoryConfigurerInterface;
 import io.biza.deepthought.shared.payloads.dio.product.DioProductRateLending;
 import io.biza.deepthought.shared.persistence.model.product.banking.ProductBankRateLendingData;
 import io.biza.deepthought.shared.persistence.model.product.banking.ProductBankRateLendingTierApplicabilityData;
 import io.biza.deepthought.shared.persistence.model.product.banking.ProductBankRateLendingTierData;
-import io.biza.babelfish.cdr.models.payloads.banking.product.BankingProductRateTierApplicabilityV1;
 import ma.glasnost.orika.CustomMapper;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.MappingContext;

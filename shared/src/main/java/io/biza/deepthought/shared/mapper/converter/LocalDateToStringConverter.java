@@ -14,7 +14,8 @@
 package io.biza.deepthought.shared.mapper.converter;
 
 import java.time.LocalDate;
-import io.biza.babelfish.cdr.Constants;
+
+import io.biza.babelfish.common.Constants;
 import ma.glasnost.orika.MappingContext;
 import ma.glasnost.orika.converter.BidirectionalConverter;
 import ma.glasnost.orika.metadata.Type;

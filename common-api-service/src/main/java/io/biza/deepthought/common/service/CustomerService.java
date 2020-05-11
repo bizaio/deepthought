@@ -24,9 +24,7 @@ import io.biza.deepthought.shared.exception.InvalidSubjectException;
 import io.biza.deepthought.shared.payloads.requests.RequestListAccounts;
 import io.biza.deepthought.shared.persistence.model.customer.CustomerData;
 import io.biza.deepthought.shared.persistence.model.grant.GrantCustomerAccountData;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @Service
 public class CustomerService {
 

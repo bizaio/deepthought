@@ -19,7 +19,8 @@ import java.util.List;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.annotation.Validated;
-import io.biza.babelfish.cdr.support.LabelValueEnumInterface;
+
+import io.biza.babelfish.common.interfaces.LabelValueEnumInterface;
 import io.biza.deepthought.admin.Constants;
 import io.biza.deepthought.admin.api.delegate.TypeApiDelegate;
 import io.biza.deepthought.admin.support.LabelValueDerivedInterface;

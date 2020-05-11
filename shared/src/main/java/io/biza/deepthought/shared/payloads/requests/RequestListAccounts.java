@@ -14,6 +14,7 @@
 package io.biza.deepthought.shared.payloads.requests;
 
 import javax.validation.constraints.Min;
+
 import io.biza.babelfish.cdr.enumerations.BankingAccountStatusWithAll;
 import io.biza.babelfish.cdr.enumerations.BankingProductCategory;
 import lombok.Builder;

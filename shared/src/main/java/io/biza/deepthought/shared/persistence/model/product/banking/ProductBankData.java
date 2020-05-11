@@ -37,6 +37,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.UpdateTimestamp;
+
 import io.biza.babelfish.cdr.enumerations.BankingProductCategory;
 import io.biza.deepthought.shared.persistence.converter.URIDataConverter;
 import io.biza.deepthought.shared.persistence.model.product.ProductData;

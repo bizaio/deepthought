@@ -29,6 +29,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.Valid;
 import org.hibernate.annotations.Type;
+
 import io.biza.babelfish.cdr.enumerations.PayloadTypeBankingDomesticPayee;
 import io.biza.babelfish.cdr.enumerations.PayloadTypeBankingDomesticPayeePayId;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioSchemeType;

@@ -34,6 +34,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.Valid;
 import org.hibernate.annotations.Type;
+
 import io.biza.babelfish.cdr.enumerations.BankingProductDiscountType;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioSchemeType;
 import io.biza.deepthought.shared.persistence.converter.URIDataConverter;

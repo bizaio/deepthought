@@ -16,8 +16,9 @@ package io.biza.deepthought.shared.payloads.dio.enumerations;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonValue;
-import io.biza.babelfish.cdr.exceptions.LabelValueEnumValueNotSupportedException;
-import io.biza.babelfish.cdr.support.LabelValueEnumInterface;
+
+import io.biza.babelfish.common.exceptions.LabelValueEnumValueNotSupportedException;
+import io.biza.babelfish.common.interfaces.LabelValueEnumInterface;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 @Schema(description = "Person Suffixes", enumAsRef = true)

@@ -37,9 +37,7 @@ import io.biza.deepthought.shared.payloads.requests.RequestGrantCustomerAccount;
 import io.biza.deepthought.shared.persistence.model.customer.bank.CustomerAccountData;
 import io.biza.deepthought.shared.persistence.model.grant.GrantCustomerAccountData;
 import io.biza.deepthought.shared.persistence.model.grant.GrantData;
-import io.biza.deepthought.shared.persistence.repository.BankAccountRepository;
 import io.biza.deepthought.shared.persistence.repository.CustomerAccountRepository;
-import io.biza.deepthought.shared.persistence.repository.CustomerRepository;
 import io.biza.deepthought.shared.persistence.repository.GrantRepository;
 import lombok.extern.slf4j.Slf4j;
 
@@ -53,12 +51,6 @@ public class GrantAdminApiDelegateImpl implements GrantAdminApiDelegate {
 
   @Autowired
   private GrantRepository grantRepository;
-
-  @Autowired
-  private CustomerRepository customerRepository;
-
-  @Autowired
-  private BankAccountRepository accountRepository;
   
   @Autowired
   private CustomerAccountRepository customerAccountRepository;

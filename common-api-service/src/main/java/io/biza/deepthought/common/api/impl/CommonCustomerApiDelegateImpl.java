@@ -21,12 +21,12 @@ import io.biza.babelfish.cdr.models.responses.ResponseCommonCustomerDetailV1;
 import io.biza.babelfish.cdr.models.responses.ResponseCommonCustomerV1;
 import io.biza.babelfish.cdr.models.responses.container.ResponseCommonCustomerDataV1;
 import io.biza.babelfish.cdr.models.responses.container.ResponseCommonCustomerDetailDataV1;
+import io.biza.babelfish.spring.util.CDRContainerAttributes;
 import io.biza.deepthought.common.api.delegate.CommonCustomerApiDelegate;
 import io.biza.deepthought.common.service.CustomerService;
 import io.biza.deepthought.shared.component.mapper.DeepThoughtMapper;
 import io.biza.deepthought.shared.exception.InvalidSubjectException;
 import io.biza.deepthought.shared.persistence.model.customer.CustomerData;
-import io.biza.deepthought.shared.util.CDRContainerAttributes;
 
 @Validated
 @Controller

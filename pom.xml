@@ -84,7 +84,7 @@
         <springdoc-openapi-ui.version>1.2.25</springdoc-openapi-ui.version>
         <springdoc-openapi-maven-plugin.version>0.2</springdoc-openapi-maven-plugin.version>
         <dockerfile-maven-plugin.version>1.4.13</dockerfile-maven-plugin.version>
-        <babelfish-cdr.version>1.2.4</babelfish-cdr.version>
+        <babelfish.version>1.2.7-SNAPSHOT</babelfish.version>
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
         <lombok.version>1.18.10</lombok.version>
         <junit-jupiter.version>5.6.0-M1</junit-jupiter.version>
@@ -195,46 +195,6 @@
         </plugins>
     </reporting>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>io.biza</groupId>
-            <artifactId>babelfish-cdr</artifactId>
-            <version>${babelfish-cdr.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.validation</groupId>
-            <artifactId>validation-api</artifactId>
-            <version>${validation-api.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate.validator</groupId>
-            <artifactId>hibernate-validator</artifactId>
-            <version>${hibernate-validator.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate.validator</groupId>
-            <artifactId>hibernate-validator-annotation-processor</artifactId>
-            <version>${hibernate-validator.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.el</groupId>
-            <artifactId>javax.el-api</artifactId>
-            <version>${javax.el-api.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j-simple.version}</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>

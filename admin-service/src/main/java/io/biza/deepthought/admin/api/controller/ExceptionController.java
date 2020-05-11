@@ -26,8 +26,9 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonMappingException.Reference;
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import com.fasterxml.jackson.databind.exc.ValueInstantiationException;
-import io.biza.babelfish.cdr.exceptions.LabelValueEnumValueNotSupportedException;
-import io.biza.babelfish.cdr.support.LabelValueEnumInterface;
+
+import io.biza.babelfish.common.exceptions.LabelValueEnumValueNotSupportedException;
+import io.biza.babelfish.common.interfaces.LabelValueEnumInterface;
 import io.biza.deepthought.admin.exceptions.ValidationListException;
 import io.biza.deepthought.shared.payloads.ResponseValidationError;
 import io.biza.deepthought.shared.payloads.ValidationError;

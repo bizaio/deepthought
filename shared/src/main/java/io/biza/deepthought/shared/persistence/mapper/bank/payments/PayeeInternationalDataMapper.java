@@ -13,7 +13,7 @@
  *******************************************************************************/
 package io.biza.deepthought.shared.persistence.mapper.bank.payments;
 
-import io.biza.babelfish.cdr.abstracts.payloads.banking.account.payee.international.BankingInternationalPayeeBankDetailsV1;
+import io.biza.babelfish.cdr.models.payloads.banking.account.payee.international.BankingInternationalPayeeBankDetailsV1;
 import io.biza.babelfish.cdr.models.payloads.banking.account.payee.international.BankingInternationalPayeeBeneficiaryDetailsV1;
 import io.biza.babelfish.cdr.models.payloads.banking.account.payee.international.BankingInternationalPayeeV1;
 import io.biza.deepthought.shared.mapper.OrikaFactoryConfigurerInterface;

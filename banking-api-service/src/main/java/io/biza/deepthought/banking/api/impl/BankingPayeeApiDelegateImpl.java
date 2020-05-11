@@ -26,6 +26,7 @@ import io.biza.babelfish.cdr.models.payloads.banking.account.payee.BankingPayeeV
 import io.biza.babelfish.cdr.models.responses.ResponseBankingPayeeByIdV1;
 import io.biza.babelfish.cdr.models.responses.ResponseBankingPayeeListV1;
 import io.biza.babelfish.cdr.models.responses.container.ResponseBankingPayeeListDataV1;
+import io.biza.babelfish.spring.util.CDRContainerAttributes;
 import io.biza.deepthought.banking.api.delegate.BankingPayeeApiDelegate;
 import io.biza.deepthought.banking.requests.RequestListPayees;
 import io.biza.deepthought.banking.service.PayeeService;
@@ -36,7 +37,6 @@ import io.biza.deepthought.shared.exception.NotFoundException;
 import io.biza.deepthought.shared.payloads.requests.RequestListAccounts;
 import io.biza.deepthought.shared.persistence.model.bank.payments.PayeeData;
 import io.biza.deepthought.shared.persistence.model.grant.GrantCustomerAccountData;
-import io.biza.deepthought.shared.util.CDRContainerAttributes;
 import lombok.extern.slf4j.Slf4j;
 
 @Validated

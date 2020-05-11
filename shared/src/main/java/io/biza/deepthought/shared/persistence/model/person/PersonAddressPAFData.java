@@ -31,6 +31,7 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import org.hibernate.annotations.Type;
+
 import io.biza.babelfish.cdr.enumerations.AddressPAFFlatUnitType;
 import io.biza.babelfish.cdr.enumerations.AddressPAFFloorLevelType;
 import io.biza.babelfish.cdr.enumerations.AddressPAFPostalDeliveryType;

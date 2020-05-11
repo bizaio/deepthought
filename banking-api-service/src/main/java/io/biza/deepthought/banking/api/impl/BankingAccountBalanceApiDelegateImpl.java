@@ -23,6 +23,7 @@ import io.biza.babelfish.cdr.models.payloads.banking.account.balance.BankingBala
 import io.biza.babelfish.cdr.models.responses.ResponseBankingAccountsBalanceByIdV1;
 import io.biza.babelfish.cdr.models.responses.ResponseBankingAccountsBalanceListV1;
 import io.biza.babelfish.cdr.models.responses.container.ResponseBankingAccountsBalanceListDataV1;
+import io.biza.babelfish.spring.util.CDRContainerAttributes;
 import io.biza.deepthought.banking.api.delegate.BankingAccountBalanceApiDelegate;
 import io.biza.deepthought.banking.requests.RequestBalancesByAccounts;
 import io.biza.deepthought.banking.requests.RequestBalancesByCriteria;
@@ -31,7 +32,6 @@ import io.biza.deepthought.shared.component.mapper.DeepThoughtMapper;
 import io.biza.deepthought.shared.exception.NotFoundException;
 import io.biza.deepthought.shared.payloads.dio.banking.DioBankAccountBalance;
 import io.biza.deepthought.shared.payloads.requests.RequestListAccounts;
-import io.biza.deepthought.shared.util.CDRContainerAttributes;
 import lombok.extern.slf4j.Slf4j;
 
 @Validated

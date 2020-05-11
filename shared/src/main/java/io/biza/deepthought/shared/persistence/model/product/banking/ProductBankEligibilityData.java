@@ -35,6 +35,7 @@ import javax.persistence.Transient;
 import javax.validation.Valid;
 import org.hibernate.annotations.Type;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import io.biza.babelfish.cdr.enumerations.BankingProductEligibilityType;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioSchemeType;
 import io.biza.deepthought.shared.persistence.converter.URIDataConverter;

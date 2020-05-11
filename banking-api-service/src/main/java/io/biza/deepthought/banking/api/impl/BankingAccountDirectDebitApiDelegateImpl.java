@@ -24,6 +24,7 @@ import org.springframework.validation.annotation.Validated;
 import io.biza.babelfish.cdr.models.payloads.banking.account.directdebit.BankingDirectDebitV1;
 import io.biza.babelfish.cdr.models.responses.ResponseBankingDirectDebitAuthorisationListV1;
 import io.biza.babelfish.cdr.models.responses.container.ResponseBankingDirectDebitAuthorisationListDataV1;
+import io.biza.babelfish.spring.util.CDRContainerAttributes;
 import io.biza.deepthought.banking.api.delegate.BankingAccountDirectDebitApiDelegate;
 import io.biza.deepthought.banking.requests.RequestDirectDebitsByAccounts;
 import io.biza.deepthought.banking.requests.RequestDirectDebitsByBulk;
@@ -33,7 +34,6 @@ import io.biza.deepthought.shared.component.service.GrantService;
 import io.biza.deepthought.shared.exception.NotFoundException;
 import io.biza.deepthought.shared.payloads.requests.RequestListAccounts;
 import io.biza.deepthought.shared.persistence.model.bank.payments.DirectDebitData;
-import io.biza.deepthought.shared.util.CDRContainerAttributes;
 import lombok.extern.slf4j.Slf4j;
 
 @Validated

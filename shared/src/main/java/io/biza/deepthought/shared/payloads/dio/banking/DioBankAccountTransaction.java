@@ -22,10 +22,11 @@ import javax.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import io.biza.babelfish.cdr.converters.CurrencyToStringConverter;
-import io.biza.babelfish.cdr.converters.StringToCurrencyConverter;
+
 import io.biza.babelfish.cdr.enumerations.BankingTransactionStatus;
 import io.biza.babelfish.cdr.enumerations.BankingTransactionType;
+import io.biza.babelfish.common.jackson.CurrencyToStringConverter;
+import io.biza.babelfish.common.jackson.StringToCurrencyConverter;
 import io.biza.deepthought.shared.Constants;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioSchemeType;
 import io.swagger.v3.oas.annotations.media.Schema;

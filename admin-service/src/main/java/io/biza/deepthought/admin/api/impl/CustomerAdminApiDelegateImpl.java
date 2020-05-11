@@ -31,7 +31,6 @@ import io.biza.deepthought.shared.payloads.dio.common.DioCustomer;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioExceptionType;
 import io.biza.deepthought.shared.persistence.model.BrandData;
 import io.biza.deepthought.shared.persistence.model.customer.CustomerData;
-import io.biza.deepthought.shared.persistence.repository.BankAccountRepository;
 import io.biza.deepthought.shared.persistence.repository.BrandRepository;
 import io.biza.deepthought.shared.persistence.repository.CustomerRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -49,9 +48,6 @@ public class CustomerAdminApiDelegateImpl implements CustomerAdminApiDelegate {
 
   @Autowired
   private BrandRepository brandRepository;
-  
-  @Autowired
-  private BankAccountRepository bankAccountRepository;
   
   @Autowired
   private Validator validator;

@@ -23,10 +23,11 @@ import javax.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import io.biza.babelfish.cdr.converters.CurrencyToStringConverter;
-import io.biza.babelfish.cdr.converters.PeriodToStringConverter;
-import io.biza.babelfish.cdr.converters.StringToCurrencyConverter;
-import io.biza.babelfish.cdr.converters.StringToPeriodConverter;
+
+import io.biza.babelfish.common.jackson.CurrencyToStringConverter;
+import io.biza.babelfish.common.jackson.PeriodToStringConverter;
+import io.biza.babelfish.common.jackson.StringToCurrencyConverter;
+import io.biza.babelfish.common.jackson.StringToPeriodConverter;
 import io.biza.deepthought.shared.Constants;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioMaturityInstructionType;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioSchemeType;

@@ -15,10 +15,8 @@ package io.biza.deepthought.shared.payloads.mapper;
 
 import io.biza.deepthought.shared.mapper.OrikaFactoryConfigurerInterface;
 import io.biza.deepthought.shared.payloads.dio.grant.DioGrant;
-import lombok.extern.slf4j.Slf4j;
 import ma.glasnost.orika.MapperFactory;
 
-@Slf4j
 public class DioGrantMapper implements OrikaFactoryConfigurerInterface {
 
   @Override

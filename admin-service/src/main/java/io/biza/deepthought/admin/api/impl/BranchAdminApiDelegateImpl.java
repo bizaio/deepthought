@@ -29,7 +29,6 @@ import io.biza.deepthought.shared.component.mapper.DeepThoughtMapper;
 import io.biza.deepthought.shared.payloads.dio.banking.DioBankBranch;
 import io.biza.deepthought.shared.persistence.model.bank.BankBranchData;
 import io.biza.deepthought.shared.persistence.repository.BankBranchRepository;
-import io.biza.deepthought.shared.persistence.repository.BrandRepository;
 import lombok.extern.slf4j.Slf4j;
 
 @Validated
@@ -43,9 +42,6 @@ public class BranchAdminApiDelegateImpl implements BranchAdminApiDelegate {
   @Autowired
   private BankBranchRepository branchRepository;
 
-  @Autowired
-  private BrandRepository brandRepository;
-  
   @Autowired
   private Validator validator;
 

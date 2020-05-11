@@ -23,12 +23,10 @@ import io.biza.deepthought.shared.persistence.model.person.PersonAddressData;
 import io.biza.deepthought.shared.persistence.model.person.PersonData;
 import io.biza.deepthought.shared.persistence.model.person.PersonEmailData;
 import io.biza.deepthought.shared.persistence.model.person.PersonPhoneData;
-import lombok.extern.slf4j.Slf4j;
 import ma.glasnost.orika.CustomMapper;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.MappingContext;
 
-@Slf4j
 public class PersonDataMapper implements OrikaFactoryConfigurerInterface {
 
   @Override

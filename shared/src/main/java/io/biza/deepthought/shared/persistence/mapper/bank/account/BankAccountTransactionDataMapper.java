@@ -18,10 +18,8 @@ import io.biza.babelfish.cdr.models.payloads.banking.account.transaction.Banking
 import io.biza.deepthought.shared.mapper.OrikaFactoryConfigurerInterface;
 import io.biza.deepthought.shared.payloads.dio.banking.DioBankAccountTransaction;
 import io.biza.deepthought.shared.persistence.model.bank.transaction.BankAccountTransactionData;
-import lombok.extern.slf4j.Slf4j;
 import ma.glasnost.orika.MapperFactory;
 
-@Slf4j
 public class BankAccountTransactionDataMapper implements OrikaFactoryConfigurerInterface {
 
   @Override

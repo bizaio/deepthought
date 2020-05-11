@@ -29,6 +29,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.validation.Valid;
 import org.hibernate.annotations.Type;
+
 import io.biza.babelfish.cdr.enumerations.AddressPurpose;
 import io.biza.babelfish.cdr.enumerations.PayloadTypeAddress;
 import lombok.AllArgsConstructor;

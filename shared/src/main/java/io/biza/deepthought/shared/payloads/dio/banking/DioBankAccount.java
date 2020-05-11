@@ -22,8 +22,9 @@ import javax.validation.constraints.NotNull;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import io.biza.babelfish.cdr.converters.DateTimeStringToOffsetDateTimeConverter;
-import io.biza.babelfish.cdr.converters.OffsetDateTimeToDateTimeStringConverter;
+
+import io.biza.babelfish.common.jackson.DateTimeStringToOffsetDateTimeConverter;
+import io.biza.babelfish.common.jackson.OffsetDateTimeToDateTimeStringConverter;
 import io.biza.deepthought.shared.payloads.cdr.CdrBankingAccount;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioAccountStatus;
 import io.biza.deepthought.shared.payloads.dio.enumerations.DioBankAccountType;

@@ -36,6 +36,7 @@ import javax.persistence.Table;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import org.hibernate.annotations.Type;
+
 import io.biza.babelfish.cdr.enumerations.BankingTransactionStatus;
 import io.biza.babelfish.cdr.enumerations.BankingTransactionType;
 import io.biza.deepthought.shared.Constants;

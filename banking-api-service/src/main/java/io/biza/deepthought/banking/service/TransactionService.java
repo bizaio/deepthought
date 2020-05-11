@@ -27,9 +27,7 @@ import io.biza.deepthought.shared.persistence.model.bank.transaction.BankAccount
 import io.biza.deepthought.shared.persistence.model.grant.GrantCustomerAccountData;
 import io.biza.deepthought.shared.persistence.repository.BankAccountTransactionRepository;
 import io.biza.deepthought.shared.persistence.specification.TransactionSpecifications;
-import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 @Service
 public class TransactionService {
 
