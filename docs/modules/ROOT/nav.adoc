@@ -1,0 +1,2 @@
+.Deep Thought
+* xref:placeholder.adoc[Placeholder]
