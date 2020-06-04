@@ -1,6 +1,6 @@
 {
     "API_BASE_PATH": "http://localhost:8080/dio-au",
-    "OAUTH2_ISSUER": "https://id.dev.lab.dataright.io/auth/realms/deepthought",
-    "OAUTH2_CLIENT_ID": "deepthought-admin-service",
+    "OAUTH2_ISSUER": "https://keycloak.biza.io/auth/realms/localdev",
+    "OAUTH2_CLIENT_ID": "local-dev-frontend",
     "OAUTH2_SCOPE": "DEEPTHOUGHT:ADMIN:PRODUCT:READ DEEPTHOUGHT:ADMIN:PRODUCT:WRITE"
 }
